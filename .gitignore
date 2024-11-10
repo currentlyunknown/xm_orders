@@ -1,0 +1,78 @@
+*~
+*.pyc
+*.sqlite
+*.tmp
+.DS_Store
+.settings*
+.project
+.pydevproject
+.idea
+*.swp
+*.log
+.venv*
+.vagrant
+.vscode
+settings_local.py
+settings_tests_local.py
+.coverage
+htmlcov
+DATABASE_LOADED
+ngrok
+*.ipynb
+.env
+.env.dev
+
+# ignore folder used by python-rope
+.ropeproject/
+
+/hsbc.log
+nosetests.xml
+/django_media
+/django_static
+/screenshots
+/client_secrets.json
+/test_autoneedle.py
+/static/geodata/
+.requirements-local.txt
+/node_modules/
+.crucible.conf
+npm-debug.log
+geckodriver.log
+rethinkdb_backups/
+
+.ruff_cache/
+
+# Maxmind geo db
+*.mmdb
+
+*.rdb
+
+temp/
+static/temp-dev/
+downloads/
+*.pgdump
+
+docker/local/bash/.bash_aliases
+docker/local/bash/.bashrc
+docker/local/docker-compose.override.yml
+docker/local/Dockerfile.override
+docker/local/ssh/id_rsa
+docker/local/ssh/id_rsa.pub
+docker/db_backups/
+docker/rethinkdb_backups/
+
+# Sphinx documentation
+docs/build/
+
+# Logs
+logs/
+
+# Tests
+xml_test_reports/
+
+# pyenv
+.python-version
+pyrightconfig.json
+
+# local secrets
+/app/.env.secrets
