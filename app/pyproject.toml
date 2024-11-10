@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "XM Orders API"
+version = "0.1.0"
+description = ""
+authors = ["Michal Spychala <michal.spychala@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+django = "4.1.7"
+djangorestframework = "3.14.0"
+pdbpp = "^0.10.3"
+black = "^24.4.2"
+isort = "^5.13.2"
+ruff = "^0.4.5"
+pyyaml = {file = "PyYAML-5.4.1-cp39-cp39-macosx_10_9_x86_64.whl"}
+docker-compose = "^1.29.2"
+psycopg2-binary = "^2.9.9"
+pytest = "^8.2.1"
+pytest-django = "^4.8.0"
+drf-spectacular = "^0.27.2"
+gunicorn = "^22.0.0"
+celery = "^5.4.0"
+redis = "^5.0.4"
+flower = "^2.0.1"
+factory-boy = "^3.3.0"
+pytest-mock = "^3.14.0"
+requests-mock = "^1.12.1"
+pytz = "^2024.1"
+django-waffle = "^4.1.0"
+freezegun = "^1.5.1"
+python-dotenv = ">=0.13.0,<1.0.0"
+djangorestframework-simplejwt = "^5.3.1"
+django-allauth = "^0.63.3"
+dj-rest-auth = "^6.0.0"
+django-cors-headers = "^4.3.1"
+django-admin-tools = "^0.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
